@@ -83,3 +83,7 @@
     width: auto;
   }
 }
+
+.logo-container {
+  display: flex;
+}
