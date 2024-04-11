@@ -1,0 +1,65 @@
+.veg-section {
+    padding: 80px 0 80px 0;
+    background: #7a3145;
+}
+
+.veg-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+}
+
+.veg-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.04167;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin-bottom: 40px;}
+
+.veg-title span{
+    color: rgba(251, 251, 251, 0.3);
+}
+
+.veg-list {
+    display: block;
+}
+
+.veg-item {
+    background: #fbfbfb;
+    border-radius: 40px;
+    padding: 32px 26px;
+    width: 334px;
+    height: 379px;
+    margin-bottom: 20px;
+}
+
+.veg-item:last-child{
+    margin-bottom: 0;
+}
+
+.veg-name {
+    font-weight: 600;
+        font-size: 28px;
+        line-height: 1;
+        letter-spacing: -0.01em;
+        color: #7a3145;
+        margin-bottom: 12px;
+}
+
+.veg-price {
+    font-weight: 600;
+        font-size: 14px;
+        line-height: 1.28571;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #141414;
+        margin-bottom: 14px;
+}
+
+.veg-img {
+    margin: 0 auto;
+}
