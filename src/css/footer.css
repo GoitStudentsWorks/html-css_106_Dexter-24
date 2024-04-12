@@ -71,6 +71,11 @@
   align-items: center;
 }
 
+.privacy-symbol {
+  font-size: 18px;
+  line-height: 1.11;
+}
+
 .green-harvest-symbol {
   font-weight: 500;
   font-size: 12px;
