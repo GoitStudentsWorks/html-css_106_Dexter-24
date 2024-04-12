@@ -1,89 +1,86 @@
-.footer {
-  background-color: #7a3145;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-family: 'Inter Tight', sans-serif;
-}
-
-.footer-container {
-  padding-left: 20px;
-  margin: 0;
-}
-
-.logo-container {
-  margin-bottom: 14px;
-}
-
-.icon-mob-logo {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 4px;
-  fill: #fbfbfb;
-}
-
-.footer-slogan {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
-  color: #fbfbfb;
-  margin-bottom: 40px;
-  width: 296px;
-}
-
-.footer-menu-list {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 1;
-  letter-spacing: -0.01em;
-  color: #fbfbfb;
-  margin-bottom: 40px;
-}
-
-.footer-address-list {
-  display: flex;
-  flex-direction: column;
-  font-weight: 600;
-  line-height: 1.29;
-  letter-spacing: -0.01em;
-  color: #fbfbfb;
-  font-style: normal;
-  margin-bottom: 80px;
-}
-
-.footer-privacy {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: -0.01em;
-  color: rgba(251, 251, 251, 0.5);
-}
-
-.footer-privacy-container {
-  padding-left: 20px;
-  padding-right: 20px;
-  display: flex;
-  gap: 49px;
-}
-
-.green-harvest-symbol {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: -0.01em;
-  color: rgba(251, 251, 251, 0.5);
-}
-
 @media screen and (min-width: 375px) {
-  .container {
-    width: auto;
+  .footer {
+    background-color: #7a3145;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Inter Tight', sans-serif;
   }
-}
 
-.logo-container {
-  display: flex;
+  .footer-container {
+    padding-left: 20px;
+    margin: 0;
+  }
+
+  .logo-container {
+    margin-bottom: 14px;
+  }
+
+  .icon-mob-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 4px;
+    fill: #fbfbfb;
+    margin-bottom: 14px;
+  }
+
+  .footer-slogan {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #fbfbfb;
+    margin-bottom: 40px;
+    width: 296px;
+  }
+
+  .footer-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    color: #fbfbfb;
+    margin-bottom: 40px;
+  }
+
+  .footer-address-list {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    color: #fbfbfb;
+    font-style: normal;
+    margin-bottom: 80px;
+  }
+
+  .footer-privacy {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .footer-privacy-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 49px;
+  }
+
+  .green-harvest-symbol {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
+  }
 }
