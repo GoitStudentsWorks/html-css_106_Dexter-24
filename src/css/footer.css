@@ -1,18 +1,13 @@
 @media screen and (min-width: 375px) {
   .footer {
     background-color: #7a3145;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-family: 'Inter Tight', sans-serif;
   }
 
   .footer-container {
-    padding-left: 20px;
+    width: 375px;
     margin: 0;
-  }
-
-  .logo-container {
-    margin-bottom: 14px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .icon-mob-logo {
@@ -47,14 +42,23 @@
   }
 
   .footer-address-list {
-    display: flex;
-    flex-direction: column;
     font-weight: 600;
+    font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.01em;
     color: #fbfbfb;
     font-style: normal;
     margin-bottom: 80px;
+  }
+
+  .footer-address-item {
+    margin-top: 14px;
+  }
+
+  .footer-privacy-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .footer-privacy {
@@ -68,19 +72,106 @@
     align-items: center;
   }
 
-  .footer-privacy-container {
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    align-items: center;
-    gap: 49px;
-  }
-
   .green-harvest-symbol {
     font-weight: 500;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.01em;
     color: rgba(251, 251, 251, 0.5);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+  }
+
+  .footer-container-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .icon-mob-logo {
+    font-size: 16px;
+    line-height: 1.25;
+    gap: 8px;
+    margin-bottom: 25px;
+  }
+
+  .footer-slogan {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 1.25;
+  }
+
+  .footer-menu-list {
+    font-size: 32px;
+    gap: 25px;
+    margin-bottom: 64px;
+  }
+
+  .footer-address-list {
+    font-size: 18px;
+    line-height: 1.11;
+    margin-bottom: 100px;
+  }
+
+  .footer-address-item {
+    margin-top: 25px;
+  }
+
+  .footer-privacy-container {
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .footer-privacy {
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+  }
+
+  .green-harvest-symbol {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer .container {
+    width: 1280px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .footer-logo-wrap {
+    flex-grow: 1;
+  }
+
+  .footer-slogan {
+    width: 265px;
+  }
+
+  .footer-menu-wrap {
+    display: flex;
+  }
+
+  .footer-menu-list {
+    line-height: 1;
+    margin-right: 121px;
+    margin-bottom: 0;
+  }
+
+  .footer-address-list {
+    margin-bottom: 0;
+  }
+
+  .footer-privacy-container {
+    margin-top: 125px;
   }
 }
