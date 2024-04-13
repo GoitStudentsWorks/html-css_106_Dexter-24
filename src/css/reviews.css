@@ -137,3 +137,24 @@
 }
 
 }
+
+@media screen and (min-width: 1280px) {
+    .reviews-container {
+        padding: 100px;
+    } 
+ 
+    .reviews-list {
+        gap: 25px;
+        flex-wrap: nowrap;
+    }
+
+    .reviews-item {
+        width: calc((100% - 25px) /3);
+    }
+
+    .reviews-item:last-child {
+        display: flex;
+    }
+
+
+}
