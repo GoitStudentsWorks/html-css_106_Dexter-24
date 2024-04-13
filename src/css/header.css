@@ -27,6 +27,18 @@
   border: none;
 }
 
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(20, 20, 20, 0.4);
+  width: 100vw;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .mob-menu {
   position: fixed;
   top: 0;
@@ -37,9 +49,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  opacity: 0;
+  /* opacity: 0;
   pointer-events: none;
-  visibility: hidden;
+  visibility: hidden; */
   z-index: 999;
 }
 
@@ -144,8 +156,20 @@
     width: 704px;
   }
 
-  .mob-menu {
+  .backdrop {
     position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(20, 20, 20, 0.4);
+    width: 50vw;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .mob-menu {
+    /* position: fixed; */
     top: 0;
     right: 0;
     background: #7a3145;
@@ -155,9 +179,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
+
+    /* pointer-events: none;
+    visibility: hidden; */
     z-index: 999;
   }
 
@@ -234,6 +258,13 @@
     display: none;
   }
 
+  .backdrop {
+    
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
   .mob-menu {
     display: none;
   }
@@ -248,5 +279,3 @@
   margin: 0 auto;
   text-align: center;
 }
-
-
