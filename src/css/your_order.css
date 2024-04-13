@@ -230,10 +230,6 @@
         line-height: 1.25;
     }
 
-    .section-yourorder-content {
-        
-    }
-
 .section-yourorder-wrapper{
     margin: 0 auto;
 }
@@ -303,15 +299,7 @@
     .section-yourorder {
         padding: 100px;
     }
-
-    .section-yourorder-content {
-        
-    }
-
-    .section-yourorder-form-wrap {
-        width: 529px;
-    }
-
+    
     .section-yourorder-socnetworks {
         width: 529px;
     }
