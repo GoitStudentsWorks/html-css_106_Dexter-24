@@ -1,7 +1,12 @@
 .page-header {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  z-index: 15;
   padding-top: 32px;
   padding-bottom: 32px;
-  background: #576f35;
 }
 
 .header-container {
@@ -9,6 +14,13 @@
   align-items: center;
   text-decoration: none;
   justify-content: space-between;
+}
+
+.svg-1,
+.svg-2,
+.svg-3,
+.svg-4 {
+  fill: #fbfbfb;
 }
 
 .page-nav-list {
@@ -27,6 +39,18 @@
   border: none;
 }
 
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(20, 20, 20, 0.4);
+  width: 100vw;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .mob-menu {
   position: fixed;
   top: 0;
@@ -37,9 +61,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
   z-index: 999;
 }
 
@@ -123,10 +144,6 @@
   padding: 16px 32px;
 }
 
-.icon {
-  fill: #fbfbfb;
-}
-
 .is-open {
   opacity: 1;
   visibility: visible;
@@ -135,17 +152,28 @@
 
 @media screen and (min-width: 375px) {
   .container {
-    width: 335px;
+    width: 375px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 704px;
+    width: 768px;
+  }
+
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(20, 20, 20, 0.4);
+    width: 50vw;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
   }
 
   .mob-menu {
-    position: fixed;
     top: 0;
     right: 0;
     background: #7a3145;
@@ -155,9 +183,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
     z-index: 999;
   }
 
@@ -166,11 +191,34 @@
     visibility: visible;
     pointer-events: auto;
   }
+
+  .svg-1 {
+    width: 18px;
+    height: 18px;
+    fill: #fbfbfb;
+  }
+
+  .svg-2 {
+    width: 168px;
+    height: 15px;
+    fill: #fbfbfb;
+  }
+
+  .svg-3 {
+    width: 40px;
+    height: 40px;
+    fill: #fbfbfb;
+  }
+
+  .close-icon {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1080px;
+    width: 1280px;
   }
 
   .header-nav {
@@ -183,7 +231,6 @@
   .page-nav-list {
     display: flex;
     gap: 8px;
-
     align-items: center;
   }
 
@@ -234,19 +281,13 @@
     display: none;
   }
 
+  .backdrop {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
   .mob-menu {
     display: none;
   }
 }
-
-.hero-wrap {
-  background: #576f35;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0 auto;
-  text-align: center;
-}
-
-
