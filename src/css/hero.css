@@ -1,7 +1,9 @@
 .hero {
+    margin: 0;
+    max-width: 100%;
     background-color: #576f35;
     padding: 100px 0px 0px 0px;
-    width: 375px;
+    /* width: 375px; */
     height: 812px;
     background-image: linear-gradient(rgba(20, 20, 20, 0.2),
             rgba(20, 20, 20, 0.2)),
@@ -52,7 +54,7 @@
 @media screen and (min-width: 768px) {
     .hero {
         padding: 122px 0px 0px 0px;
-        width: 768px;
+        /* width: 768px; */
         height: 1024px;
         background-image: linear-gradient(rgba(20, 20, 20, 0.2),
                 rgba(20, 20, 20, 0.2)),
@@ -94,7 +96,7 @@
 @media screen and (min-width: 1280px) {
     .hero {
         padding: 0px 0px 0px 100px;
-        width: 1280px;
+        /* width: 1280px; */
         height: 800px;
         background-image: linear-gradient(rgba(20, 20, 20, 0.2),
                 rgba(20, 20, 20, 0.2)),
@@ -115,8 +117,8 @@
     }
 
     .hero-container {
-        margin: 0;
-        max-width: 100%;
+        /* margin: 0;
+        max-width: 100%; */
         padding: 238px 0 0 0;
 
     }
