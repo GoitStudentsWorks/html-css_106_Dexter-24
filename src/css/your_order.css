@@ -1,8 +1,8 @@
+
+
 .section-yourorder {
     padding-top: 80px;
     padding-bottom: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -17,7 +17,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-
+    margin-bottom: 40px;
 }
 
 .section-yourorder-title {
@@ -28,8 +28,6 @@
     text-transform: uppercase;
     color: #fbfbfb;
     margin-bottom: 29px;
-    
-
 }
 
 .yourorder-title-span {
@@ -49,21 +47,17 @@
 }
 
 .section-yourorder-wrapper {
-    padding: 40px 0;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
     gap: 20px;
-    max-width: 100%;
+    
 }
 
 .section-yourorder-form-wrap {
     background: #fbfbfb;
     border-radius: 30px;
     padding: 40px 20px;
-    margin: 0 auto;
-    
+    width: 100%;
 }
 
 .section-yourorder-form-title {
@@ -74,6 +68,7 @@
     text-transform: uppercase;
     color: #141414;
     margin-bottom: 40px;
+
 }
 
 .yourorder-form-span-fromus {
@@ -85,10 +80,10 @@
 }
 
 .section-yourorder-form {
-    
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
 }
 
 .yourorder-input {
@@ -102,8 +97,7 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: #141414;
-    max-width: 295px;
-    
+    width: 100%;
 }
 
 .yourorder-input:focus,
@@ -135,7 +129,7 @@
     border-color: #e74a3b;
 }
 
-.yourorder-input-coment {
+.yourorder-input-comment {
     border: 1px solid rgba(20, 20, 20, 0.2);
     border-radius: 15px;
     padding-top: 14px;
@@ -146,11 +140,11 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: #141414;
-    max-width: 295px;
+    width:100%;
 }
 
 .section-yourorder-button {
-    margin: o auto;
+    
     border-radius: 30px;
     background: #576f35;
     padding-top: 16px;
@@ -158,6 +152,12 @@
     cursor: pointer;
     border: none;
     max-width: 100%;
+    font-weight: 600;
+        font-size: 14px;
+        line-height: 1.28571;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #fbfbfb;
 }
 
 .section-yourorder-socnetworks {
@@ -181,12 +181,15 @@
     margin-bottom: 14px;
 }
 
+
 .yourorder-socnetworks-list {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
+    gap: 8px 0;
+    width: 100%;
     
 }
 
@@ -222,45 +225,71 @@
 
     .section-yourorder-title {
         margin-bottom: 25px;
-        
+        width: 640px;
+        font-weight: 600;
+            font-size: 64px;
+            line-height: 1;
     }  
+
+    .yourorder-title-span{
+        font-weight: 600;
+            font-size: 64px;
+            line-height: 1;
+    }
 
     .section-yourorder-text {
         font-size: 16px;
         line-height: 1.25;
+        width: 640px;
+        font-size: 16px;
+            line-height: 1.25;
     }
 
 .section-yourorder-wrapper{
-    margin: 0 auto;
+    
+    width: 100%;
+    padding: 0 70px;
+    gap: 25px;
 }
 
     .section-yourorder-form-wrap {
-        max-width: 628px;
         padding: 50px 100px;
+        width: 100%;
     }
+
+.section-yourorder-form{
+    width: 100%;
+    gap: 15px;
+}
 
     .section-yourorder-form-title {
         margin-bottom: 50px;
-    }
-
-    .section-yourorder-form {
-        width: 428px;
+        width: 100%;
     }
 
     .yourorder-input {
-        width: 428px;
+        width: 100%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 16px;
+        line-height: 1.25;
     }
 
-    .yourorder-input-coment {
-        width: 428px;
+    .yourorder-input-comment {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.25;
+        padding-top: 16px;
     }
 
     .section-yourorder-button {
         width: 428px;
+        font-size: 18px;
+        line-height: 1.11;
     }
 
     .section-yourorder-socnetworks {
-        width: 628px;
+        width: 100%;
         padding: 50px;
     }
 
@@ -287,9 +316,8 @@
         .yourorder-socnetworks-item:not(:last-child):after{
             font-size: 32px;
             line-height: 1;
+            margin: 0 8px;
         }
-
-
 
 
 }
@@ -297,48 +325,75 @@
 @media screen and (min-width: 1280px) {
 
     .section-yourorder {
-        padding: 100px;
+        padding: 50px;
     }
     
-    .section-yourorder-socnetworks {
-        width: 529px;
+    .section-yourorder-title {
+        width: 751px;
+    }
+    
+    .section-yourorder-text{
+        line-height: 1.25;
+        width: 751px;
     }
 
-    .section-yourorder-wrapper {
-        display: flex;
-        flex-direction: row;
-        gap: 24px;
-    }
-
-    .section-yourorder-form-wrap{
-padding: 50px;
-    }
-
-    .section-yourorder-form-title{
-width: 428px;
-margin-bottom: 50px;
-    }
-
-.yourorder-socnetworks-list{
-gap: 12px 0;
+.section-yourorder-wrapper{
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    width: 100%;
 }
 
-    .section-yourorder-form {
-        width: 429px;
-        gap: 15px;
-    }
+.section-yourorder-form-wrap{
+    padding: 50px;
+    width: calc((100% - 24px) / 2);
+}
 
-    .yourorder-input {
-        width: 429px;
-    }
+.section-yourorder-form-title{
+    font-family: "Inter Tight",
+sans-serif;
+font-weight: 600;
+    font-size: 24px;
+    line-height: 1.08333;
+    letter-spacing: -0.01em;
+    width: 100%;
+}
+
+.section-yourorder-form{
+    max-width: 100%;
+    gap: 15px;
+    margin-bottom: 0;
+}
+
+.section-yourorder-socnetworks{
+    width: calc((100% - 24px) / 2);
+}
+
+.yourorder-socnetworks-image{
+    width: 100%;
+}
+
+.yourorder-socnetworks-list{
+    gap: 12px 0;
+    width: 357px;
+}
+
+.yourorder-socnetworks-item{
+    font-size: 32px;
+}
 
     .section-yourorder-button {
-        width: 429px;
+        width: 100%;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.11;
     }
 
-.yourorder-socnetworks-item:not(:last-child):after{
-    font-size: 32px;
-        line-height: 1;
+.yourorder-socnetworks-title{
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.11;
 }
 
 
