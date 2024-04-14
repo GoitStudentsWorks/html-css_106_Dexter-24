@@ -14,7 +14,6 @@ margin-bottom: 40px;
 }
 
 .reviews-title {
-   
     font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 48px;
@@ -22,16 +21,15 @@ margin-bottom: 40px;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #141414;
-   
     width: 100vw;
 }
 
 .reviews-title span {
     color: #576f35;
-    
 }
 
 .reviews-text {
+    font-family: "Inter Tight", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
@@ -49,23 +47,34 @@ margin-bottom: 40px;
     background-color: transparent;
     padding: 20px 16px;
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+
+}
+
+.reviews-name-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 24px;
 }
 
 .reviews-name {
+    font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
     text-align: center;
     color: #040306;
-    margin-top: 24px;
-    margin-bottom: 8px;
 }
 
 .reviews-content {
+    font-family: "Inter Tight", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
@@ -119,9 +128,9 @@ margin-bottom: 40px;
     background-color: transparent;
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
     width: calc((100% - 18px) /2);
 
 }
@@ -142,7 +151,8 @@ margin-bottom: 40px;
 .reviews-content {
     font-size: 16px;
     line-height: 1.4; 
-    justify-content: center;
+    width: 288px;
+    
 }
 
 }
