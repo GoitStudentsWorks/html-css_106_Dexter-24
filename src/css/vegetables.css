@@ -96,7 +96,7 @@
         row-gap: 28px;
         column-gap: 20px;
         align-items: flex-start;
-        justify-content: flex-start;
+        justify-content: space-between;
     }
 
     .veg-name{
