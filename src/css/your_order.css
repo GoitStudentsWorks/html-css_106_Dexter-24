@@ -141,7 +141,9 @@
     letter-spacing: -0.02em;
     color: #141414;
     width:100%;
+    resize: none;
 }
+
 
 .section-yourorder-button {
     
