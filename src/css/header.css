@@ -18,6 +18,15 @@
   justify-content: space-between;
 }
 
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 4px;
+  fill: #fbfbfb;
+}
+
 .svg-1,
 .svg-2,
 .svg-3,
@@ -59,7 +68,6 @@
   background: #7a3145;
   width: 100vw;
   height: 100vh;
-  padding-top: 240px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -86,6 +94,11 @@
 }
 
 .mob-menu-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.mob-menu-centr {
   display: flex;
   flex-direction: column;
 }
@@ -135,6 +148,7 @@
   height: 50px;
   align-self: center;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .mob-shop-btn:hover,
@@ -156,7 +170,7 @@
   .mob-menu {
     right: 0;
     width: 50vw;
-    padding-top: 360px;
+    
   }
 
   .svg-1 {
