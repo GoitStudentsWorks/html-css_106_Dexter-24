@@ -135,10 +135,43 @@
     margin-bottom: 64px;
   }
 
+  .footer-menu-item {
+    transition: font-size 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-menu-item:hover,
+  .footer-menu-item:focus {
+    font-size: 40px;
+    text-shadow: -6px -3px 9px rgba(0, 0, 0, 0.6);
+  }
+
   .footer-address-list {
     font-size: 18px;
     line-height: 1.11;
     margin-bottom: 100px;
+  }
+
+  .footer-address-item {
+    transition: font-size 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-address-item:hover,
+  .footer-address-item:focus {
+    font-size: 24px;
+    text-shadow: -6px -3px 9px rgba(0, 0, 0, 0.6);
+  }
+
+  .footer-mob-number {
+    transition: font-size 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-mob-number:hover,
+  .footer-mob-number:focus {
+    font-size: 24px;
+    text-shadow: -6px -3px 9px rgba(0, 0, 0, 0.6);
   }
 
   .footer-address-item {
