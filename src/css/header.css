@@ -1,11 +1,11 @@
 .page-header {
   position: fixed;
-  top: 20px;
+  top: 0px;
   left: 50%;
   transform: translateX(-50%);
   background-color: transparent;
   z-index: 15;
-  padding-top: 32px;
+  padding-top: 5px;
   padding-bottom: 32px;
   width: 100%;
   transition: all 300ms linear;
@@ -203,6 +203,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .page-header {
+    top: 20px;
+    padding-top: 32px;
+  }
   .header-nav {
     display: flex;
     align-items: center;
