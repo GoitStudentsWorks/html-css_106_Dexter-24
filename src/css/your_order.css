@@ -132,8 +132,9 @@
 .yourorder-input-comment {
     border: 1px solid rgba(20, 20, 20, 0.2);
     border-radius: 15px;
+    min-height: 91px;
     padding-top: 14px;
-    padding-bottom: 59px;
+    padding-bottom: 8px;
     padding-left: 16px;
     font-weight: 500;
     font-size: 14px;
@@ -146,7 +147,6 @@
 
 
 .section-yourorder-button {
-    
     border-radius: 30px;
     background: #576f35;
     padding-top: 16px;
@@ -161,6 +161,13 @@
         text-transform: uppercase;
         color: #fbfbfb;
 }
+
+.section-yourorder-button:hover,
+.section-yourorder-button:focus{
+    text-shadow: -10px -4px 9px rgba(45, 35, 35, 0.87);
+    
+}
+
 
 .section-yourorder-socnetworks {
     background: #576f35;
@@ -201,6 +208,11 @@
     line-height: 1.08;
     letter-spacing: -0.01em;
     color: #fbfbfb;
+}
+
+.yourorder-socnetworks-link:hover,
+.yourorder-socnetworks-link:focus{
+    text-shadow: -10px -4px 9px rgba(45, 35, 35, 0.87);
 }
 
 .yourorder-socnetworks-item:not(:last-child):after {
@@ -282,6 +294,7 @@
         font-size: 16px;
         line-height: 1.25;
         padding-top: 16px;
+        height: 95px;
     }
 
     .section-yourorder-button {
@@ -388,6 +401,9 @@ font-weight: 600;
         font-size: 18px;
         line-height: 1.11;
     }
+
+
+
 
 .yourorder-socnetworks-title{
     margin-bottom: 15px;
